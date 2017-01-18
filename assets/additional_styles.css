@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /* Other page sections */
 aside.container {
   background-color: #ffffff;
-  width: 100vw;
 }
 footer {
   font-weight: 400;
