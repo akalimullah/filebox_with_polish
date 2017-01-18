@@ -24,10 +24,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .navbar .navbar-brand {
   font-weight: 500;
 }
+/* Other page sections */
 aside {
   background-color: #ffffff;
 }
+footer {
+  font-weight: 400;
+  line-height: 200%;
+  color: #777777;
+}
 footer h4 {
+  font-size: 16px;
   font-weight: 700;
 }
 /* My standard vertical spacing classes */
