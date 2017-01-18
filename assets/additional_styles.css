@@ -1,11 +1,36 @@
 /* Additional styles */
-
+/* Adjusting body text and background */
 body {
   font-family: "Open Sans";
+  font-weight: 300;
+  background-color: #fbfbfb;
 }
-
+p {
+  font-size: 20px;
+  line-height: 175%;
+}
+/* Reset font-weight on headers */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: inherit;
+  line-height: 125%;
+}
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff;
+}
+.navbar *, .navbar .navbar-brand, .navbar .btn-link {
+  color: #007ee5;
+}
+.navbar .navbar-brand {
+  font-weight: 500;
+}
+aside {
+  background-color: #ffffff;
+}
+footer h4 {
+  font-weight: 700;
+}
 /* My standard vertical spacing classes */
-
 .padding-inside-top-xs {
   padding-top: 10px;
 }
